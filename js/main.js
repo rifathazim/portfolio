@@ -9,11 +9,13 @@ $(document).ready(function () {
         // typed.js
         var typed = new Typed('.typed', {
         // Waits 1000ms after typing "First"
-            strings: ['Web Developer', 'Digital Marketer','Web API Developer','Web Developer' ],
-            loop:true,
+            //strings: ['Web Developer', 'Digital Marketer','Web API Developer','Web Developer'],
+            strings: ["Software Engineer.", "Web Developer.", "Student."],
+            loop: true,
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 1500,
             showCursor: false,
-            typeSpeed: 60,
-            startDelay: 200,
         });
 
         //owl carousel
